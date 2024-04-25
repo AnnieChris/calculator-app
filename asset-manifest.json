@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.510ff8ac.css",
-    "main.js": "/static/js/main.9427c93e.js",
-    "static/js/787.99079f54.chunk.js": "/static/js/787.99079f54.chunk.js",
-    "static/media/mathematical-background.jpg": "/static/media/mathematical-background.d5a628530f8fc71b033d.jpg",
-    "index.html": "/index.html",
-    "main.510ff8ac.css.map": "/static/css/main.510ff8ac.css.map",
-    "main.9427c93e.js.map": "/static/js/main.9427c93e.js.map",
-    "787.99079f54.chunk.js.map": "/static/js/787.99079f54.chunk.js.map"
+    "main.css": "/calculator-app/static/css/main.748da88f.css",
+    "main.js": "/calculator-app/static/js/main.52e00f11.js",
+    "static/js/787.99079f54.chunk.js": "/calculator-app/static/js/787.99079f54.chunk.js",
+    "static/media/mathematical-background.jpg": "/calculator-app/static/media/mathematical-background.d5a628530f8fc71b033d.jpg",
+    "index.html": "/calculator-app/index.html",
+    "main.748da88f.css.map": "/calculator-app/static/css/main.748da88f.css.map",
+    "main.52e00f11.js.map": "/calculator-app/static/js/main.52e00f11.js.map",
+    "787.99079f54.chunk.js.map": "/calculator-app/static/js/787.99079f54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.510ff8ac.css",
-    "static/js/main.9427c93e.js"
+    "static/css/main.748da88f.css",
+    "static/js/main.52e00f11.js"
   ]
 }
