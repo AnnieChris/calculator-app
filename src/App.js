@@ -4,6 +4,8 @@ import './App.css';
 import './components/style.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Calculator from './components/Calculator';
+import Error from './components/Error';
+
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/calculator' exact element={<Calculator/>} />
-          {/* <Route path='*' element={<Error />} /> */}
+          <Route path='*' element={<Error/>} /> 
         </Routes>
       </Router>
       
