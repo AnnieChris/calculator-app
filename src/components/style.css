@@ -1,0 +1,82 @@
+body{
+  background-color: #f7f7f7 !important;
+  background-image: url('../images/mathematical-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 375vh;
+}
+.App {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .container{
+    background: #272727;
+    max-width: 420px !important;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #7f7d7d;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  button {
+    margin: 5px !important;
+    width: 60px;
+    height: 60px;
+    font-size: 20px !important;
+    color: #d37c00 !important;
+    border-radius: 50% !important;
+    box-shadow: 2px 3px 4px #474446;
+    background: #d3d2d2 !important;
+    border: none !important;
+  }
+  button.clear{
+    background-color: #e28809 !important;
+    color: #f7f7f7 !important;
+    box-shadow: 2px 2px 3px #483821;
+  }
+  button.symbols{
+    background-color: #14195a !important;
+    color: white !important;
+    box-shadow: 2px 2px 3px #0e0e4b;
+  }
+  button.equals{
+    width: 6em;
+    border-radius: 45% !important;
+    background: #ca5b10 !important;
+    color: white !important;
+    box-shadow: 2px 3px 5px #321908;
+  }
+
+  button:hover{
+    background-color: #ffffff !important;
+    border: 2px solid #d37c00 !important;
+  }
+  button.symbols:hover{
+    background-color: #960707 !important;
+    border: 2px solid #f3f3f3 !important;
+  }
+  button.equals:hover{
+    background-color: #07964e !important;
+    border: 2px solid #f3f3f3 !important;
+  }
+  
+  input[type='text'] {
+    width: 90%;
+    height: 100%;
+    font-size: 2em;
+    text-align: right;
+    border: none;
+    outline: none;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 2px 3px 4px #4d3e3e !important;
+    color: #8e8b8b !important;
+}
+  
